@@ -271,7 +271,7 @@ const App = () => {
                                                     <IconTrendingDown />
                                                 </div>
                                                 <div>
-                                                    <p className="text-blue-400 text-[12px] font-bold uppercase tracking-wider mb-1">কার্যাদেশ সুপারিশ</p>
+                                                    <p className="text-blue-400 text-[12px] font-bold uppercase tracking-wider mb-1"> উপযুক্ত ঠিকাদার </p>
                                                     <h3 className="text-2xl font-bold tracking-tight">{results.winner.name}</h3>
                                                     <p className="text-slate-400 text-sm mt-1">
                                                          উপযুক্ত দর: <span className="text-white font-mono font-bold px-1">{parseFloat(results.winner.price).toFixed(2)}</span>
