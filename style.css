@@ -2,6 +2,7 @@ body {
     font-family: 'Hind Siliguri', sans-serif; 
 }
 
+
 .custom-scrollbar::-webkit-scrollbar { 
     width: 6px; 
 }
@@ -15,8 +16,14 @@ body {
     border-radius: 10px; 
 }
 
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
